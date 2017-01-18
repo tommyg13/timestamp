@@ -1,5 +1,10 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 #{name} Timestamp microservice
+  p.red Example usage:
+  code https://time-stamp-gkazikas.c9users.io/1450137600
+  br
+  code https://time-stamp-gkazikas.c9users.io/December%2015,%202015
+  p.red Output:
+  code { "unix": 1450137600, "natural": "December 15, 2015" }

@@ -6,3 +6,12 @@ body {
 a {
   color: #00B7FF;
 }
+
+.red {
+  color:red;
+  font-size:15px;
+}
+
+code {
+  background-color: #E9967A;
+}
